@@ -4,7 +4,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from bson import json_util
 from bson.objectid import ObjectId
 app = Flask(__name__)
-CONNECTION_STRING = "mongodb+srv://bjavier9:Shelvykrs1995@syra-uoyzo.gcp.mongodb.net/test?retryWrites=true&w=majority"
+CONNECTION_STRING = "link"
 client = pymongo.MongoClient(CONNECTION_STRING)
 db = client.get_database('lana')
 # user_colection = pymongo.collection.Collection(db, 'user')
